@@ -1,8 +1,7 @@
-import java.io.*;
 import java.util.*;
 
 public class IteratorDemo<I extends Number> {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         Set<Integer> scores = new TreeSet<Integer>();
         scores.add(94);
         scores.add(38);

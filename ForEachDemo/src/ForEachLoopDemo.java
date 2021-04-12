@@ -1,14 +1,9 @@
-//
-// BJP5 11-1 Lists
-//
-
-import java.io.*;
 import java.util.*;
 
 public class ForEachLoopDemo {
-    public static void main(String[] args) throws FileNotFoundException {
-//        Set<String> words = new HashSet<String>(); // order is arbitrary
-        Set<Double> grades = new TreeSet<>();
+    public static void main(String[] args) {
+//        Set<String> words = new HashSet<String>(); // arbitrary order
+        Set<Double> grades = new TreeSet<>();   // "natural" order
         grades.add(90.5);
         grades.add(85.4);
         grades.add(100.0);
@@ -19,8 +14,5 @@ public class ForEachLoopDemo {
             System.out.println("Student's grade: " + grade);
         }
         System.out.println(grades);
-//        for (String word : names) {
-//            System.out.println(word);
-//        }
     }
 }
